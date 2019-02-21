@@ -1,0 +1,30 @@
+1.1 F
+1.2 V
+1.3 V
+1.4 V
+1.5 F
+
+2.	- Nivel 0: Usar HTTP para interacciones remotas sin usar otros mecanismos existentes.
+	- Nivel 1: Identificar recursos dada una URL sin especificar la acción a realizar sobre ellos
+	- Nivel 2: El API debería usar los verbos HTTP com por ejempo GET o POST.
+	- Nivel 3: Al realizar un request, el mismo nos retorne la información de cómo usar el recurso.
+
+3. 	- <Header> Se usa para pasar la información general y es opcional.
+	- <Body> Es donde se pasa información especifica de los objetos y es obligatorio
+4. La diferencia es es que en un estilo P2P los equipos pueden comportarse tanto como cliente, como servidor;
+por lo que es una comunicación bidereccional que puede ser iniciada por cualquiera. Mientras que en el estilo
+servidor-cliente, únicamente el cliente puede iniciar la comunicación.
+
+5. Skype es un ejemplo, debido a que ninguno de los nodos se comporta de forma fija como cliente u servidor al
+hacer una videollamada.
+
+6. WSDL significa Web Services Description Language y es un formato de XML que se utiliza para describir 
+servicios web.
+
+7. Es cuando está protegido contra un acceso simultaneo de dos o más hilos sobre dicho objeto.
+
+8. Las variables atómicas son extensiones de las variables volatiles. El hecho de que sea una variable volatile
+implica que cada intento de acceso a dicha variable irá hasta memoria, evitando cualquier tipo de caché, lo que asegura
+cada lectura de dicha variable será siempre la correcta justo en ese instante de tiempo, aunque sea un proceso de lectura
+más costoso. La diferencia con los tipos atómicos es que dicho objeto tiene un metodo compareAndSet(expected. vaule),
+el cual cambia el valor si el parametro expected es el esperado.
