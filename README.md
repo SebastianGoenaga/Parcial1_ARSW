@@ -1,7 +1,7 @@
 # Recuperación Parcial
 
-##Muestra de funcionamiento
-![Imagen](pictures/Capture1.png)
+## Muestra de funcionamiento
+![Imagen](pictures/Capture1.PNG)
 ![Imagen](pictures/Capture2.png)
 ![Imagen](pictures/Capture3.png)
 
