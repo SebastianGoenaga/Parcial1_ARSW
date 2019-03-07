@@ -52,12 +52,12 @@ public class GuidFinder extends Thread {
 	public static int countGuids() {
 
 		int count = 0;
-		for (UUID uuid : guids) {
-			if (uuid.equals(guidToFind)) {
-				count++;
-			}
-
-		}
+//		for (UUID uuid : guids) {
+//			if (uuid.equals(guidToFind)) {
+//				count++;
+//			}
+//
+//		}
 		return count;
 
 	}

@@ -41,7 +41,7 @@ public class GuidFinder2 extends Thread {
 
 	
 	public int consult(UUID uuid) {
-		int count = 0; nb
+		int count = 0;
 		for (int i = 0; i < guids.size(); i++) {
 			if (guids.get(i).toString().equals(uuid.toString())) {
 				count++;
