@@ -31,8 +31,7 @@ public class VolatileMemory implements GuidPersistence{
 	@Override
 	public UIresponse consult(UIrequest request) {
 		UIresponse response = new UIresponse(guidFinder.consult(request.getRequest()), new Date(), request.getRequest());
-		responses.add(response);	
-		System.out.println(responses);
+		responses.add(response);
 		return response;
 		
 	}
